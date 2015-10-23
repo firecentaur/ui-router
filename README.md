@@ -174,6 +174,8 @@ Another great feature is the ability to have multiple `ui-view`s view per templa
 **Pro Tip:** *While multiple parallel views are a powerful feature, you'll often be able to manage your
 interfaces more effectively by nesting your views, and pairing those views with nested states.*
 
+**Pro Tip:** *Also note that nested views share the parent views scope!  This can be useful in passing data to child states.*
+
 **(1)** Follow the [setup](#get-started) instructions detailed above.
 
 **(2)** Add one or more `ui-view` to your app, give them names.
